@@ -15,6 +15,13 @@ int main() {
     result = num1 + num2;
 
     printf("What is the correct sum? : ");
+    scanf("%i", &resp);
+
+    if (result == resp){
+        printf("win victory");
+    }else{
+        printf("loss..");
+    }
 
     return 0;
 }
